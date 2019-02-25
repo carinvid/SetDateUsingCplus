@@ -1,1 +1,6 @@
 # SetDateUsingCplus
+As part of class creation, we can classify the roles of member functions into four basic groups: inspector functions that return information about an object, mutator functions that change an object, auxiliary functions that perform some action or service, and manager functions, which create and destroy objects for you.
+
+The constructor is a special function that is called automatically each time an object is created. A default constructor is one that does not require any arguments; a non-default constructor requires at least one argument. You can write your own constructors for classes any time you want specific tasks performed when an object is instantiated. As we have learned this week, a constructor must have the same name as the class.
+
+For the week 1 assessment, create a C++ program using Visual Studio that includes the class definition for a Date class that contains three integer data members: month, day, and year. Include a default constructor that assigns the date 1/1/2000 to any new object that does not receive arguments. Also include a function that displays the Date object. Write a main() function in which you instantiate two Date objects: one that you create using the default constructor values, and one that you create using three arguments (month, day and year)
